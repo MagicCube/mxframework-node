@@ -5,7 +5,7 @@ module.exports = mx;
 mx.merge(mx, {
     modules: [],
     about: {
-        version: "0.1.0",
+        version: "0.1",
         author: {
             name: "Henry Li",
             email: "henry1943@163.com"

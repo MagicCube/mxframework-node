@@ -33,6 +33,7 @@ mx.importClass("mx.Component");
  */
 global.mx = mx;
 global.isEmpty = mx.isEmpty;
+global.isEmptyString = mx.isEmptyString;
 global.notEmpty = mx.notEmpty;
 global.isBoolean = mx.isBoolean;
 global.isString = mx.isString;

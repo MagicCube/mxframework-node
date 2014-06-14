@@ -47,6 +47,7 @@ global.parseBoolean = mx.parseBoolean;
 global.parseTimeString = mx.parseTimeString;
 global.parseDateString = mx.parseDateString;
 global.parseDate = mx.parseDate;
+global.$format = mx.format;
 global.$ns = mx.namespace;
 global.$extend = mx.extend;
 global.$getclass = mx.getClass;

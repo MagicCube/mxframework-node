@@ -24,7 +24,6 @@ mx.registerModule("mx", path.resolve(module.paths[0], "../lib/mx"));
 mx.importClass("mx.Object");
 mx.importClass("mx.Event");
 mx.importClass("mx.Component");
-console.log(mx);
 
 
 
@@ -52,5 +51,5 @@ global.$ns = mx.namespace;
 global.$extend = mx.extend;
 global.$getclass = mx.getClass;
 global.$instanceof = mx.instanceOf;
-global.$register = mx.registerModule;
 global.$import = mx.importClass;
+global.$module = mx.registerModule;

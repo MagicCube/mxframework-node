@@ -54,3 +54,5 @@ global.$getclass = mx.getClass;
 global.$instanceof = mx.instanceOf;
 global.$import = mx.importClass;
 global.$module = mx.registerModule;
+
+new mx.Component().getLogger().trace("Henry");

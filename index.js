@@ -20,11 +20,11 @@ mx.merge(mx, require("./lib/mx-core.js"));
 /**
  * Module mx
  */
-mx.registerModule("mx", path.resolve("./lib/mx"));
+mx.registerModule("mx", path.resolve(module.paths[0], "../lib/mx"));
 mx.importClass("mx.Object");
 mx.importClass("mx.Event");
 mx.importClass("mx.Component");
-
+console.log(mx);
 
 
 

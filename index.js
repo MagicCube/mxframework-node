@@ -22,7 +22,7 @@ require("./lib/mx-core.js");
  * Assembly mx
  */
 mx.init();
-mx.registerAssembly("mx", path.resolve(__dirname, "lib/mx"));
+mx.registerAssembly("mx", path.resolve(__dirname, "lib", "mx"));
 mx.importClass("mx.Object");
 mx.importClass("mx.Event");
 mx.importClass("mx.Component");

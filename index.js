@@ -3,7 +3,7 @@ var path = require("path");
 var mx = require("./lib/javascript-extensions");
 module.exports = mx;
 mx.merge(mx, {
-    modules: [],
+    assemblies: [],
     about: {
         version: "0.1",
         author: {
@@ -12,20 +12,20 @@ mx.merge(mx, {
         }
     }
 });
-mx.merge(mx, require("./lib/mx-core.js"));
+require("./lib/mx-core.js");
+
 
 
 
 
 /**
- * Module mx
+ * Assembly mx
  */
-mx.registerModule("mx", path.resolve(module.paths[0], "../lib/mx"));
+mx.init();
+mx.registerAssembly("mx", path.resolve(__dirname, "lib/mx"));
 mx.importClass("mx.Object");
 mx.importClass("mx.Event");
 mx.importClass("mx.Component");
-
-
 
 
 /**
@@ -54,4 +54,4 @@ global.$extend = mx.extend;
 global.$getclass = mx.getClass;
 global.$instanceof = mx.instanceOf;
 global.$import = mx.importClass;
-global.$module = mx.registerModule;
+global.$assembly = mx.registerAssembly;

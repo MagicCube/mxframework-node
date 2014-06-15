@@ -48,6 +48,7 @@ global.parseBoolean = mx.parseBoolean;
 global.parseTimeString = mx.parseTimeString;
 global.parseDateString = mx.parseDateString;
 global.parseDate = mx.parseDate;
+global.$merge = mx.merge;
 global.$format = mx.format;
 global.$mappath = mx.mappath;
 global.$ns = mx.namespace;

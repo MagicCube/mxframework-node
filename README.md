@@ -1,5 +1,9 @@
+#MXFramework
+MXFramework is a light-weight Object Oriented JavaScript framework.
+Please refer to https://github.com/MagicCube/mxframework-core
+
 # mxframework-node
-MXFramework is a light-weight Object Oriented JavaScript framework. mxframework-node is the specified version for Node.
+mxframework-node is the specified version for Node.
 
 
 ## Download

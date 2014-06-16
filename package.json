@@ -1,6 +1,6 @@
 {
     "name": "mxframework",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "description": "MXFramework is a light-weight Object Oriented JavaScript framework. mxframework-node is the specified version for Node.",
     "author": {
         "name": "Henry Li",
@@ -17,7 +17,8 @@
     },
     "dependencies": {
         "merge": "1.1.3",
-        "tracer": "0.7.1"
+        "tracer": "0.7.1",
+        "extend": "1.2.1"
     },
     "repository": {
         "type": "git",
